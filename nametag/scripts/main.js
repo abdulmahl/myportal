@@ -39,16 +39,31 @@ const jsonUrl = 'https://abdulmahl.github.io/myportal/nametag/json/data.json';
 
 fetch(jsonUrl)
     .then(function (response) {
-        // return response.json();
-        console.log(response);
+        return response.json();
     })
 
     .then(function (jsonTags) {
-        const names = jsonTags['Persons']
-
+        console.log(jsonTags);
+        const persons = jsonTags['persons']
         const nameTag = document.querySelector('div.nameTag');
-        const tag = document.createElement('div');
-        const hello = document.createElement('h1');
-        const greeting = document.createElement('p');
-        const persoName = document.createElement('h2');
+
+        persons.forEach(person => {
+            let tag = document.createElement('section');
+            let hello = document.createElement('h1');
+            let greeting = document.createElement('p');
+            let persoName = document.createElement('h1');
+            persoName.style.fontFamily = 'fantasy';
+            persoName.style.fontSize = '2rem';
+
+            hello.textContent = `HELLO`;
+            greeting.textContent = `My name is...`;
+            persoName.textContent = `${person.firstName}`;
+
+            tag.append(hello);
+            tag.append(greeting);
+            tag.append(persoName);
+
+            nameTag.append(tag);
+        });
+        
     })

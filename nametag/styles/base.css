@@ -48,15 +48,29 @@ form {
 
 /* Name tag styling Start */
 div.nameTag {
-    width: 200px;
+    width: 250px;
     height: auto;
-    border-radius: 1.3rem;
+    margin: 10px auto;
 }
 
-div.nameTag h1, 
-div.nameTag h2 {
+section {
+    margin: 20px;
+    border: 1px solid var(--melon);
+    border-radius: 15px;
+    background-color: var(--afblue);
+    color: var(--melon);
+}
+
+p {
     background-color: var(--melon);
-    padding: .75rem;
+    color: var(--afblue);
+    padding: 10px 0px 0px 0px;
+    font-size: 1.2rem;
+}
+ 
+div.nameTag h1 {
+    /* background-color: var(--melon); */
+    padding: .25rem;
     text-align: center;
 }
 
