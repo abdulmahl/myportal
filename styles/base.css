@@ -55,10 +55,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    margin: 1%;
 }
 
-main nav {
-    padding: 20px;
+main {
+    margin: 0px 83px 25px 83px;
 }
 
 header, footer {
@@ -72,6 +73,7 @@ h1, .updated {
 li {
     color: var(--onyx);
     font-size: 1.2rem;
+    margin-left: 35px;
 }
 
 a {
