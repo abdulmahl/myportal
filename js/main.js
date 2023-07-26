@@ -29,7 +29,7 @@ let month = _months[date.getMonth()];
 let year = date.getFullYear();
 
 // const lastTwoNumYear = year % 100;
-const fullDate = ` ${dayName} ${date.getDate()} ${month} • ${year}`;
+const fullDate = ` ${dayName} ${date.getDate()} ${month}, ${year}`;
 
 document.querySelector('#year').textContent = year;
 document.querySelector('#dateTime').textContent = fullDate;

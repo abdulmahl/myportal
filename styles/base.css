@@ -1,5 +1,5 @@
 :root {
-
+    --tiffany-blue: #A6D8D4;
 }
 
 * {
@@ -33,6 +33,14 @@ header {
     gap: .7rem;
 }
 
+footer {
+    padding: 20px 0px;
+}
+
+header, footer {
+    background-color: var(--tiffany-blue);
+}
+
 header, main, footer {
     margin: 0 auto;
     text-align: center;
@@ -44,5 +52,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: ;
+}
+
+main nav {
+    padding: 20px;
 }
