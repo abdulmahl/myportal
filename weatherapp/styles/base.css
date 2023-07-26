@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 45vh;
+    height: 85vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: var(--black);
@@ -27,7 +27,7 @@ body {
 p.instructions {
     padding: 20px;
     text-align: center;
-    background-color: var(--lgreen);
+    background-color: var(--black);
     color: var(--alblue);
     font-size: 1.3rem;
 }
