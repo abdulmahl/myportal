@@ -2,6 +2,8 @@
     --lgreen: #6d8d6d7c;
     --alblue: #f0f8ff;
     --black: #0f0e0ed0;
+    --green: #6af06a7c;
+    
 }
 
 * {
@@ -17,7 +19,7 @@ body {
     height: 88vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #130f0f;
+    background: var(--black);
     background-image: url('https://source.unsplash.com/1600x900/?weather');
 }
 
@@ -43,7 +45,7 @@ button {
     width: 47px;
     color: var(--alblue);
     outline: none;
-    background: var(--lgreen);
+    background: var(--green);
     transition: .2s ease-in;
 }
 
@@ -63,7 +65,11 @@ button:hover {
 
 h1.temp {
     margin: 0;
-    margin-bottom: .3em;
+}
+
+div.weather {
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .card {
@@ -76,8 +82,8 @@ h1.temp {
     margin: 0;
 }
 
-.search {
+div.search {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
