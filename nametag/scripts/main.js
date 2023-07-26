@@ -45,7 +45,7 @@ fetch(jsonUrl)
     .then(function (jsonTags) {
         console.log(jsonTags);
         const persons = jsonTags['persons']
-        const nameTag = document.querySelector('div.nameTag');
+        const nameTag = document.querySelector('div.nameTags');
 
         persons.forEach(person => {
             let tag = document.createElement('section');
