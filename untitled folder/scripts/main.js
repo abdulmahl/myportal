@@ -28,8 +28,7 @@ let dayName = daysOfWeek[date.getDay()];
 let month = _months[date.getMonth()];
 let year = date.getFullYear();
 
-const lastTwoNumYear = year % 100;
-const fullDate = `${dayName} ${month}, ${lastTwoNumYear}`;
+const fullDate = `${dayName} ${date.getDate()} ${month}, ${year}`;
 
 document.querySelector('#year').textContent = year;
 document.querySelector('#dateTime').textContent = fullDate;

@@ -30,10 +30,15 @@ form {
     padding: 0px 0px 20px 0px;
 }
 
+footer {
+    padding: 20px 10px;
+}
+
 .search, .submit {
     padding: .35rem;
 }
 
+/* Name tag styling Start */
 div.nameTag {
     width: 200px;
     height: auto;
@@ -50,4 +55,4 @@ div.nameTag h2 {
 div.nameTag p {
     text-align: center;
 }
-
+/* Name tag styling End */
