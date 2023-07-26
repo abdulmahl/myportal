@@ -55,7 +55,7 @@ fetch(jsonUrl)
             let greeting = document.createElement('p');
             greeting.style.backgroundColor = 'white';
             let personName = document.createElement('h1');
-            personName.style.fontFamily = 'fantasy';
+            personName.style.fontFamily = 'Mynerve';
             personName.style.fontSize = '3rem';
             personName.style.padding = '20px 0px 0px 0px';
 
