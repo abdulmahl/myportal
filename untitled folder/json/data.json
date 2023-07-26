@@ -1,0 +1,38 @@
+{
+    "Persons": [{
+        "firstName": "Dale",
+        "lastName": "Null",
+        "age": "null"
+    },
+
+    {
+        "firstName": "Billy",
+        "lastName": "Null",
+        "age": 23
+    },
+
+    {
+        "firstName": "John",
+        "lastName": "Null",
+        "age": "null"
+    },
+
+    {
+        "firstName": "Ben",
+        "lastName": "Null",
+        "age": 21
+    },
+
+    {
+        "firstName": "Brian",
+        "lastName": "Null",
+        "age": 33
+    },
+
+    {
+        "firstName": "Lucy",
+        "lastName": "Null",
+        "age": 29
+    }
+]
+}

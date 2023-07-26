@@ -1,0 +1,53 @@
+:root {
+    --melon: #E0AFA0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.headerMsg {
+    font-size: 1.7rem;
+    font-family: 'Ubuntu';
+    padding: 50px 0px 15px 0px;
+}
+
+form {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.search, .submit {
+    padding: .35rem;
+}
+
+div.nameTag {
+    width: 200px;
+    height: auto;
+    border-radius: 1.3rem;
+}
+
+div.nameTag h1, 
+div.nameTag h2 {
+    background-color: var(--melon);
+    padding: .75rem;
+    text-align: center;
+}
+
+div.nameTag p {
+    text-align: center;
+}
+
