@@ -33,11 +33,22 @@ const fullDate = `${dayName} ${date.getDate()} ${month}, ${year}`;
 document.querySelector('#year').textContent = year;
 document.querySelector('#dateTime').textContent = fullDate;
 
-const nameTag = document.querySelector('div.nameTag');
-const h1 = document.createElement('h1');
-const p = document.createElement('p');
-const h2 = document.createElement('h2');
+// ? This is the part of my code were I add my name tags dynamically
+// ? from this json url.
+const jsonUrl = 'https://abdulmahl.github.io/myportal/nametag/json/data.json';
 
-// const jsonUrl = 
+fetch(jsonUrl)
+    .then(function (response) {
+        // return response.json();
+        console.log(response);
+    })
 
+    .then(function (jsonTags) {
+        const names = jsonTags['Persons']
 
+        const nameTag = document.querySelector('div.nameTag');
+        const tag = document.createElement('div');
+        const hello = document.createElement('h1');
+        const greeting = document.createElement('p');
+        const persoName = document.createElement('h2');
+    })
