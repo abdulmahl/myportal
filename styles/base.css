@@ -1,5 +1,8 @@
 :root {
     --tiffany-blue: #A6D8D4;
+    --onyx: #353B3C;
+    --indigo: #124E78;
+    --orange: #F3A712;
 }
 
 * {
@@ -30,7 +33,7 @@ header {
     flex-direction: column;
     padding: 20px;
     align-items: center;
-    gap: .7rem;
+    gap: .3rem;
 }
 
 footer {
@@ -38,7 +41,7 @@ footer {
 }
 
 header, footer {
-    background-color: var(--tiffany-blue);
+    background-color: var(--indigo);
 }
 
 header, main, footer {
@@ -56,4 +59,26 @@ nav ul li a {
 
 main nav {
     padding: 20px;
+}
+
+header, footer {
+    color: var(--tiffany-blue);
+}
+
+h1, .updated {
+    color: var(--orange);
+}
+
+li {
+    color: var(--onyx);
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--indigo);
+    font-size: 1.3rem;
+}
+
+a:hover {
+    color: var(--orange);
 }
