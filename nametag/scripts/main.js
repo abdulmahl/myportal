@@ -53,7 +53,7 @@ fetch(jsonUrl)
             let greeting = document.createElement('p');
             let persoName = document.createElement('h1');
             persoName.style.fontFamily = 'fantasy';
-            persoName.style.fontSize = '2rem';
+            persoName.style.fontSize = '3rem';
 
             hello.textContent = `HELLO`;
             greeting.textContent = `My name is...`;
