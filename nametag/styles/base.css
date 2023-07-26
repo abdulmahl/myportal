@@ -2,6 +2,8 @@
     --melon: #E0AFA0;
     --afblue: #4B88A2;
     --black: #252627;
+    --snow: #FFF9FB;
+    --red: #BB0A21;
 }
 
 * {
@@ -25,7 +27,8 @@ header, nav, main, footer {
     text-align: center;
 }
 
-div.headerMsg {
+div.header {
+    color: var(--afblue);
     font-size: 2.5rem;
     font-family: 'Ubuntu';
     padding: 20px 0px;
@@ -56,25 +59,14 @@ div.nameTags {
 
 section {
     margin: 20px;
-    border: 1px solid var(--melon);
+    border: 1px solid var(--red);
     border-radius: 15px;
-    background-color: var(--afblue);
-    color: var(--melon);
+    background-color: var(--red);
+    color: var(--black);
 }
 
-p {
-    background-color: var(--melon);
+p.copyright {
     color: var(--afblue);
-    padding: 10px 0px 0px 0px;
     font-size: 1.2rem;
-}
- 
-div.nameTags h1 {
-    padding: .25rem;
-    text-align: center;
-}
-
-div.nameTags p {
-    text-align: center;
 }
 /* Name tag styling End */

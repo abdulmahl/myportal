@@ -33,6 +33,42 @@
         "firstName": "Lucy",
         "lastName": "Null",
         "age": 29
+    },
+
+    {
+        "firstName": "Dineo",
+        "lastName": "Null",
+        "age": "null"
+    },
+
+    {
+        "firstName": "Anne",
+        "lastName": "Null",
+        "age": 23
+    },
+
+    {
+        "firstName": "John",
+        "lastName": "Null",
+        "age": "null"
+    },
+
+    {
+        "firstName": "Bridget",
+        "lastName": "Null",
+        "age": 21
+    },
+
+    {
+        "firstName": "Bonny",
+        "lastName": "Null",
+        "age": 33
+    },
+
+    {
+        "firstName": "lillith",
+        "lastName": "Null",
+        "age": 29
     }
 ]
 }

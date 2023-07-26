@@ -43,25 +43,29 @@ fetch(jsonUrl)
     })
 
     .then(function (jsonTags) {
-        console.log(jsonTags);
+        // console.log(jsonTags);
         const persons = jsonTags['persons']
         const nameTag = document.querySelector('div.nameTags');
 
         persons.forEach(person => {
             let tag = document.createElement('section');
             let hello = document.createElement('h1');
+            hello.style.padding = '10px';
+            hello.style.fontSize = '2rem';
             let greeting = document.createElement('p');
-            let persoName = document.createElement('h1');
-            persoName.style.fontFamily = 'fantasy';
-            persoName.style.fontSize = '3rem';
+            greeting.style.backgroundColor = 'white';
+            let personName = document.createElement('h1');
+            personName.style.fontFamily = 'fantasy';
+            personName.style.fontSize = '3rem';
+            personName.style.padding = '20px 0px 0px 0px';
 
             hello.textContent = `HELLO`;
             greeting.textContent = `My name is...`;
-            persoName.textContent = `${person.firstName}`;
+            personName.textContent = `${person.firstName}`;
 
             tag.append(hello);
             tag.append(greeting);
-            tag.append(persoName);
+            tag.append(personName);
 
             nameTag.append(tag);
         });
