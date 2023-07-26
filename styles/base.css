@@ -2,7 +2,7 @@
     --tiffany-blue: #A6D8D4;
     --onyx: #353B3C;
     --indigo: #124E78;
-    --orange: #F3A712;
+    --yellow: #F3A712;
 }
 
 * {
@@ -44,7 +44,7 @@ header, footer {
     background-color: var(--indigo);
 }
 
-header, main, footer {
+header, footer {
     margin: 0 auto;
     text-align: center;
 }
@@ -67,7 +67,7 @@ header, footer {
 }
 
 h1, .updated {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 li {
@@ -82,5 +82,9 @@ a {
 }
 
 a:hover {
-    color: var(--orange);
+    color: var(--yellow);
+    border: 0;
+    outline: 3px solid var(--indigo);
+    outline-offset: 3px;
+    transition: 500ms;
 }
