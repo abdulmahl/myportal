@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+    :root {
+        --lgreen: #6d8d6d7c;
+        --alblue: #f0f8ff;
+        --black: #0f0e0ed0;
+        --green: #6af06a7c;
+        
+    }
+
+    body {
+        height: 98vh;
+    }
+    
+    .card {
+        border-radius: 30px;
+        width: 100%;
+        max-width: 533px;
+    }
+ 
+}

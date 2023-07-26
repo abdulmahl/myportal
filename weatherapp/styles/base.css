@@ -16,11 +16,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 88vh;
+    flex-direction: column;
+    height: 45vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: var(--black);
     background-image: url('https://source.unsplash.com/1600x900/?weather');
+}
+
+p.instructions {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--lgreen);
+    color: var(--alblue);
+    font-size: 1.3rem;
 }
 
 input.search-bar {
@@ -45,22 +54,22 @@ button {
     width: 47px;
     color: var(--alblue);
     outline: none;
-    background: var(--green);
+    background: var(--lgreen);
     transition: .2s ease-in;
 }
 
 button:hover {
-    background: var(--lgreen);
+    background: var(--green);
 }
 
 .description {
     text-transform: capitalize;
-    margin-left: 8px;
 }
 
 .flex {
     display: flex;
     align-items: center;
+    margin-right: 50px;
 }
 
 h1.temp {
@@ -72,14 +81,13 @@ div.weather {
     margin-top: 10px;
 }
 
-.card {
+div.card {
     background: var(--black);
     color: var(--alblue);
     padding: 2em;
-    border-radius: 30px;
-    width: 100%;
+    width: 95%;
     max-width: 420px;
-    margin: 0;
+    margin-top: 15px;
 }
 
 div.search {
