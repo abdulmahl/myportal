@@ -1,5 +1,5 @@
 :root {
-
+   --primary: #BB0A21;
 }
 
 * {
@@ -10,10 +10,17 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
 }
 
 header {
-    padding: 30px;
+    display: flex;
+    padding: 20px;
+    margin: 7px 7px 0px 7px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    
 }
 
 #logo {
@@ -30,5 +37,18 @@ img#logo {
 
 nav ul {
     display: none;
+}
+
+p.aboutme {
+    padding: 20px;
+}
+
+img#myImage {
+    width: 100%;
+}
+
+div.backGround {
+    height: 300px;
+    background-color: var(--primary);
 }
 
