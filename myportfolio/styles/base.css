@@ -39,6 +39,26 @@ nav ul {
     display: none;
 }
 
+nav ul.open {
+    display: block;
+    margin: 0 auto;
+}
+
+button#hamBtn span:nth-child(1) {
+    display: block;
+}
+
+button#hamBtn span:nth-child(2) {
+    display: none;
+}
+
+button#hamBtn.open span:nth-child(1) {
+    display: none;
+}
+
+button#hamBtn.open span:nth-child(2) {
+    display: block;
+}
 p.aboutme {
     padding: 20px;
 }
