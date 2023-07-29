@@ -92,3 +92,7 @@ div.backGround {
     background-color: var(--primary);
 }
 
+.weatherCards {
+    display: flex;
+    justify-content: center;
+}
