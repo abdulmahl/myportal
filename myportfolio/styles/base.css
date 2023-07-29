@@ -20,7 +20,6 @@ header {
     margin: 7px 7px 0px 7px;
     border: 1px solid #000;
     border-radius: 15px;
-    
 }
 
 #logo {
@@ -33,6 +32,26 @@ img#logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+button#hamBtn {
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: .75rem 5vw;
+    color: #fff;
 }
 
 nav ul {
@@ -59,6 +78,7 @@ button#hamBtn.open span:nth-child(1) {
 button#hamBtn.open span:nth-child(2) {
     display: block;
 }
+
 p.aboutme {
     padding: 20px;
 }
