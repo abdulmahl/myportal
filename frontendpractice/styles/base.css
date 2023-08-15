@@ -1,0 +1,294 @@
+:root {
+    --foreGreen: #00ad6a;
+    --lightGreen: #eafaf1;
+    --someGreen: #1fe374;
+    --blacc: #080c16;
+    --grayishBlacc: #464951;
+    --gray: #d6dae5;
+    --ice: #fcfcfc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--blacc); 
+}
+
+.line {
+    width: 34px;
+    height: 1.3px;
+    margin: 7px;
+    background-color: var(--someGreen);
+}
+
+button#hamburgerBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: .75rem 5vw;
+    color: var(--foreGreen);
+    font-size: 2.7rem;
+}
+
+nav ul li a:hover {
+    color: var(--blacc);
+}
+
+.pt-4 a {
+    color: var(--grayishBlacc);
+    font-size: 1.5rem;
+    background: var(--foreGreen);
+    padding: 20px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.pt-4 a:hover {
+    box-shadow: 7px 7px 3px var(--blacc);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    background: var(--lightGreen);
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-color: var(--lightGreen);
+}
+
+h1 {
+    padding: 0px 390px 30px;
+}
+
+.headerMsg p {
+    padding: 0px 330px 30px;
+}
+
+.packs h2 {
+    color: var(--someGreen);
+    padding: 15px 35px;
+    font-size: large;
+}
+
+.packs ul li {
+    margin: 20px 65px;
+    font-size: small;
+}
+
+.basics {
+    padding: 0px 30px 30px;
+    font-size: small;
+}
+
+.recommendCard {
+    padding: 0px 30px 30px;
+}
+
+.recommendCard h3 {
+    color: var(--ice);
+    font-size: smaller;
+    text-align: center;
+    background: var(--foreGreen);
+    padding: 7px;
+    border-top: 1px solid var(--blacc);
+    border-left: 1px solid var(--blacc);
+    border-right: 1px solid var(--blacc);
+    border-radius: 7px 7px 0px 0px;
+}
+
+.cardContent {
+    border: 1px solid var(--blacc);
+    padding: 0px 20px 20px;
+}
+
+.cardContent h4 {
+    color: var(--someGreen);
+    font-size: 2.1rem;
+    text-align: left;
+    padding-top: 7px;
+}
+
+.buck59, .buck89 {
+    margin-bottom: 20px;
+}
+
+p.pulseBasicsPlus, .getItAllPlus {
+    font-size: .7rem;
+    padding: 20px 0px;
+    font-weight: 900;
+}
+
+.recommendCard ul, .extraCard ul {
+    padding: 0px 20px 30px;
+}
+
+h5.signUp a, h5.tryPremium a {
+    text-decoration: none;
+    color: var(--grayishBlacc);
+}
+
+h5.signUp, h5.tryPremium {
+    text-align: center;
+    background: var(--someGreen);
+    padding: 20px;
+    font-weight: 900;
+}
+
+p.complex {
+    text-align: center;
+    padding: 20px;
+    background: var(--gray);
+    border-top: 1px solid var(--grayishBlacc);
+    border-left: 1px solid var(--grayishBlacc);
+    border-right: 1px solid var(--grayishBlacc);
+}
+
+div.extraCard {
+    padding: 0px 30px 30px;
+}
+
+h4.extraFeat {
+    font-size: 1.9rem;
+}
+
+img#subvertLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+
+p.subvertMsg {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+p.name {
+    text-align: center;
+    color: var(--foreGreen);
+    font-size: 12px;
+}
+
+.subvert {
+    padding: 20px;
+}
+
+.faqs {
+    padding: 48px 24px 32px;
+}
+
+h4.faq {
+    padding-top: 48px;
+    padding-left: 24px;
+    font-size: 36px;
+}
+
+.faqHeader {
+    font-size: 20px;
+}
+
+.sects {
+    padding: 24px 0px;
+}
+
+footer {
+    background: var(--blacc);
+    padding: 30px;
+}
+
+img#fLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+a.free30Footer {
+    text-decoration: none;
+    color: var(--grayishBlacc);
+    background: var(--foreGreen);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 .free30Footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top a {
+    color: var(--ice);
+}
+
+li.top {
+    padding: 0px 0px 9px 0px;
+}
+
+.middle a {
+    color: var(--foreGreen);
+}
+
+.categoriesList {
+    list-style: none;
+}
+
+.categoriesList a {
+    text-decoration: none;
+}
+
+p.copyright {
+    color: var(--grayishBlacc);
+    padding: 10px;
+}
+
+h5.contactUs {
+    text-align: center;
+    background: var(--foreGreen);
+    padding: 10px;
+    width: 110px;
+    margin-left: auto;
+}
+
+.contactUs a {
+    text-decoration: none;
+    width: 100%;
+}

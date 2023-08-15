@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1024px) {
+
+    :root {
+        --foreGreen: #00ad6a;
+        --lightGreen: #eafaf1;
+        --someGreen: #1fe374;
+        --blacc: #080c16;
+        --grayishBlacc: #464951;
+        --gray: #d6dae5;
+        --ice: #fcfcfc;
+    }
+
+    div.hero {
+
+    }
+
+    .headerMsg {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    div.gridContainer {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    div.recommendCard {
+        padding: 0px;
+        height: 500px;
+    }
+
+    div.extraCard {
+        padding: 0px;
+    }
+
+    div.faqs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 0px 100px 0px;
+    }
+
+    h4.faq {
+        padding-left: 100px;
+    }
+
+    div.container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .categories {
+        justify-content: right;
+        gap: 150px;
+    }
+
+    p.copyright {
+        padding-top: 30px;
+    }
+
+    div.signUp {
+        margin-left: auto;
+        padding: 0;
+    }
+
+    img#fLogo {
+        margin: 0;
+    }
+
+    a.free30Footer {
+        margin-left: 20px;
+    }
+
+    ul.categoriesList {
+        font-size: 2rem;
+    }
+
+    ul.categoriesList a:hover {
+        color: var(--ice);
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+}

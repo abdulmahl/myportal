@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) {
+
+    :root {
+        --foreGreen: #00ad6a;
+        --lightGreen: #eafaf1;
+        --someGreen: #1fe374;
+        --blacc: #080c16;
+        --grayishBlacc: #464951;
+        --gray: #d6dae5;
+        --ice: #fcfcfc;
+    }
+
+    ul#primaryNav {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero {
+        border-bottom: none;
+    }
+
+    header {
+        background: var(--lightGreen);
+    }
+
+    button#hamburgerBtn {
+        display: none;
+    }
+
+    nav ul li a {
+        display: flex;
+
+        font-size: .9rem;
+    }
+
+    .headerMsg h1 {
+        font-size: 60px;
+    }
+
+    .pt-4 a {
+        background: none;
+    }
+
+    /* .pt-4 a:hover {
+        box-shadow: none;
+        font-size: .7rem;
+        padding: 0;
+    }  */
+}
