@@ -1,0 +1,225 @@
+:root {
+    --drab: #504B3A;
+    --xanthous: #F0B719;
+    --platinum: #EAE6E5;
+}
+
+body {
+    width: 70%;
+    margin: 3rem auto;
+    font-family: 'Poppins';
+    color: var(--drab);
+}
+
+img#myImage {
+    width: 17%;
+    border-radius: 50%;
+}
+
+.myName {
+    margin: 0;
+    font-family: 'Mooli';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    background: var(--drab);
+    padding: 3rem;
+    border-radius: 77% 0 0;    
+}
+
+h1.myName {
+    color: var(--xanthous)
+}
+
+.headerWrapper {
+    color: var(--platinum);
+}
+
+.background {
+    height: 2rem;
+    width: 100%;
+    background: var(--xanthous);
+    border-radius: 0 0 88%;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img#phoneIcon {
+    width: 24px;
+}
+
+#phoneIcon, #locationIcon, #webIcon,
+#emailIcon {
+    background: var(--xanthous);
+    padding: .3rem;
+    border-radius: 50%;
+}
+
+div.emailContainer a, div.phoneContainer a, 
+div.locationContainer a, div.websiteContainer a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.aboutmeContainer, .educationContainer, .workExpContainer {
+    padding-left: 1rem;
+    border-left: .2rem solid var(--drab);
+    margin: 0;
+}
+
+p.aboutme {
+    margin: 0;
+}
+
+.aboutmeHeader,
+.workExp {
+    background: var(--drab);
+    text-align: center;
+    border-radius: 0 0 88%;
+    color: var(--xanthous);
+    font-family: 'Mooli';
+    padding: .7rem;
+}
+
+.educationHeader {
+    background: var(--drab);
+    text-align: center;
+    border-radius: 88% 0 0;
+    color: var(--xanthous);
+    font-family: 'Mooli';
+    padding: .7rem;
+}
+
+h3.schoolNameYear {
+    margin: 0;
+}
+
+p.degreeName {
+    margin: 0 0 1rem;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.contactsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactsCard img {
+    width: 2rem;
+}
+
+img#phoneIcon {
+    width: 2rem;
+}
+
+li::marker {
+    font-size: 2rem;
+    color: var(--xanthous);
+}
+
+.contact, .skillsHeader, .languages {
+    color: var(--drab);
+    font-family: 'Mooli';
+}
+
+.contact {
+    margin: .7rem 0;
+}
+
+.skillsHeader, .languages, .skillsCertification {
+    margin: 0;
+}
+
+img#myImage-footer {
+    width: 13%;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 1.7rem;
+    border-radius: 0 77% 0 0;
+    background: var(--xanthous);
+}
+
+.myNameFooter {
+    color: var(--drab);
+    margin: 0;
+    font-family: 'Mooli';
+}
+
+.footerWrapper {
+    color: var(--drab);
+}
+
+.background1 {
+    height: 2rem;
+    width: 100%;
+    background: var(--drab);
+    border-radius: 0 0 0 88%;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.hobbies {
+    margin: 1rem 0rem 0rem;
+}
+
+.hobbiesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.music, .reading,
+.movies, .shopping {
+    display: flex;
+    align-items: center;
+    gap: .3rem
+}
+
+.reading img, .music img,
+.movies img, .shopping img {
+    background: var(--xanthous);
+    padding: .3rem;
+    border-radius: 50%;
+}
+
+.skillsUl, .certificationsUl,
+.languagesUl {
+    margin: 0 0 1rem 0; 
+}
+
+h3.companyNameYear {
+    margin: 1rem 0 0;
+}
+
+p.responsibilities {
+    margin: 0;
+}
+
+p.reference {
+    margin: .3rem 0 0;
+}
+
+p.degreeName, p.responsibilities { 
+    margin-left: 1.3rem;
+}
