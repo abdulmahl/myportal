@@ -11,3 +11,8 @@ function updatedClock() {
 }
 
 setInterval(updatedClock, 1000);
+
+clock.style.backgroundColor = '#1fe374';
+clock.style.color = '#00ad6a';
+clock.style.padding = '1rem';
+
